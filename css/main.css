@@ -1,0 +1,228 @@
+/*Спецификация*/
+
+html {
+
+}
+
+body {
+	font-family: 'Rubik Regular', sans-serif;
+	color:#333;
+	background: #333;
+}
+
+h1 {
+	font-family: 'Rubik-Bold', sans-serif;
+	font-size: 40px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 42px;
+}
+
+h2 {
+	font-family: 'Rubik Regular', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 42px;
+}
+
+h3 {
+	font-family: 'Rubik Medium', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+h4 {
+	font-family: 'Rubik Regular', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1230px;
+}
+/*section droid*/
+
+section {
+	padding-bottom: 180px;
+}
+
+.droid-section {
+	background: #333 url('../img/header.png') no-repeat top;
+}
+.droid__title {
+	padding-top: 128px;
+}
+
+.droid__type {
+	display: inline-block;
+}
+
+.droid__type_text {
+	margin-left: 18px;
+	margin-right: 38px;
+}
+
+.droid__type_price {
+	margin:0 18px;
+}
+
+.droid__type_do {
+	margin:0 18px;
+}
+
+.droid select {
+	width: 230px;
+	height: 33px;
+	margin: 15px auto;
+}
+
+.droid {
+	width: 470px;
+	height: 62px;
+	border-radius: 15px;
+	background: #fff;
+}
+
+.droid__search {	
+	margin:310px 0 0 auto;
+}
+
+.droid__price {
+	margin:310px auto 0 0;
+}
+
+.droid__price_input {
+	width: 80px;
+	height: 33px;
+	margin: 15px auto;
+	text-align: center;
+}
+
+.droid__card {
+	width: 343px;
+	height: 200px;
+	background: #fff;
+	margin-top: 70px;
+	margin-left: 30px;
+	position:relative;	
+}
+
+.droid__card p {
+	position: absolute;
+	left: 0px;
+	bottom: 75px;
+}
+
+.droid__img_absolute {
+	position:absolute;
+    top:-28px;
+    left: -28px;
+}
+
+.droid__card_title, .droid__card_description {
+	font-size: 14px;
+	line-height: 18px;
+	margin-left: 180px;
+}
+
+.droid__card_title {
+	font-family: 'Rubik Medium', sans-serif;
+	display: inline-block;
+	padding-top: 15px;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.droid__card_line {
+	margin-top: 26px;
+}
+
+.droid__card_checkbox {
+	transform: scale(2,2);
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+}
+
+.droid__card_price {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 151px;
+	height: 47px;
+	background: #1e8bb9;
+}
+
+.droid__card_price span {
+	font-family: 'Rubik Medium', sans-serif;
+	margin:0 auto;
+	align-self: center;
+	color: #fff;
+	font-size: 20px;
+	line-height: 42px;
+}
+
+.droid__card_bottom {
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.droid__card_priceitog {
+	font-size: 20px;
+	line-height: 42px;
+	align-self: center;
+}
+
+.btn {
+	width: 210px;
+	height: 54px;
+	border: 2px solid #fff;
+	margin-left: 90px;
+	background: #333;
+	font-family: 'Rubik Medium', sans-serif;
+	font-size: 20px;
+	line-height: 42px;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #333;
+}
+
+.droid__card_priceitog {
+	font-family: 'Rubik Medium', sans-serif;
+	color: #fff;
+	min-width: 200px;
+}
+
+.droid__card_priceitog span {
+	color:#1e8bb9;
+
+}
+
+@media screen and (max-width: 992px) {
+.droid__search, .droid__price {
+	margin: 15px auto;
+	margin-bottom: 30px;
+  }
+.droid__card {
+	margin: 30px auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+.droid__search {
+	margin-bottom: 5px;
+  }
+.droid__price {
+		margin-bottom: 5px;
+	}
+.droid__title {
+	margin-top: 20px;
+}
